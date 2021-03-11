@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>WEB1 - html</title>
-<meta charset="utf-8"
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBXGMD0KD6"></script>
 <script>
@@ -12,23 +14,29 @@
 
   gtag('config', 'G-XBXGMD0KD6');
 </script>
+
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-<ul>
-  <li> 정채현</li>
-  </ul>
-<h2>HTML-채현</h2>
-<u>hello web</u><br>
-처음 <strong>웹</strong> 만들기<br>
-<a href="https://www.naver.com/" target="_blank" title="naver">
-  참고 웹 사이트</a><br>
-<img src="lion.jpg" width="50%">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html"><font color="red">HTML</font></a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <!--
+    style은 css를 뜻함
+    -->
+    <div id="article">
+      <h2>HTML-채현</h2>
+      <u>hello web</u><br>
+      처음 <strong>웹</strong> 만들기<br>
+      <a href="https://www.naver.com/" target="_blank" title="naver">
+      <font color="blue" style="text-decoration:underline">
+        참고 웹 사이트</a><br><br>
+      </div>
+    </div>
+<img src="lion.jpg" width="100%" >
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
